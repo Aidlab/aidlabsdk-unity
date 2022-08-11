@@ -1,0 +1,128 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "rxandroidble-1.11.1"
+  }
+  digests {
+    sha256: "\244\243>\334T/\322x\306\315.\264\345\030\263\256\307\227\330(\325\375\016\303\234\241\276\302\203>\240\232"
+  }
+}
+library {
+  maven_library {
+    artifactId: "aidlabsdk"
+  }
+  digests {
+    sha256: ".\3051\f\035xD\f!\274< {\214^ae\374\212\233\nV\032\256W\221i\330\261\301\005?"
+  }
+}
+library {
+  maven_library {
+    artifactId: "aidlabnativesdk"
+  }
+  digests {
+    sha256: "[\277\003\241d$Ug\2353\354\352\304\006\255\025\325\256\030\001\255\035p\203\215\317=\037\306_`;"
+  }
+}
+library {
+  digests {
+    sha256: "\367\214]\214\t\333\230Y\022\253\203\241\336<;S\335\362\b\327\261Q\360jr5\216\243\3417\320\033"
+  }
+}
+library {
+  digests {
+    sha256: "\016s\027\262\034\250tX\3127\202G\342\340\216=s\235\206\236EZ\332z\001p\f\206\024(\206\250"
+  }
+}
+library {
+  digests {
+    sha256: "\323\215c\355\263\017\024g\201\215P\252\360_\212i-\352\21319*\004\233\372\231\033\025\232\325\266\222"
+  }
+}
+library {
+  digests {
+    sha256: "\272K\355`\277^0V\324P\030J\257q\026\002G\210\365\021F\265~U\243\226\203\214\370\244b{"
+  }
+}
+library {
+  digests {
+    sha256: "\324\312\333g;!\001\361\356_\274\024yV\254x\261\317\331\314%_\265=:\353\210\337\361\035\231\312"
+  }
+}
+library {
+  digests {
+    sha256: "\237\373S+^\"\221\365\305\273\247e\t\365\320\aH\353\375<\020\377\300\345\230\343\rk\222\020;\347"
+  }
+}
+library {
+  digests {
+    sha256: "\035\356\004\201\a-\031\311)\266#\341U\341M/`\205\334\001\025)\240\240\333\357\310L\365q\330e"
+  }
+}
+library {
+  digests {
+    sha256: "m/\207vKf8\362z\377\022\3558\r\264\266<\235F\272U\3342h:e\005\230\372Z>\""
+  }
+}
+library {
+  digests {
+    sha256: "\226T\374`\377\237\247\223L\371\224\307QQ\3236\225$q\373\377\354\310;v7\247yj&f\207"
+  }
+}
+library {
+  digests {
+    sha256: "\275--}\313\277\'\a\224\037\233c\374\t&,\327\211~\327;\330\312\006\246\241\271\377\000\233\364j"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+library_dependencies {
+  library_index: 3
+}
+library_dependencies {
+  library_index: 4
+}
+library_dependencies {
+  library_index: 5
+}
+library_dependencies {
+  library_index: 6
+}
+library_dependencies {
+  library_index: 7
+}
+library_dependencies {
+  library_index: 8
+}
+library_dependencies {
+  library_index: 9
+}
+library_dependencies {
+  library_index: 10
+}
+library_dependencies {
+  library_index: 11
+}
+library_dependencies {
+  library_index: 12
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 3
+  dependency_index: 4
+  dependency_index: 5
+  dependency_index: 6
+  dependency_index: 7
+  dependency_index: 8
+  dependency_index: 9
+  dependency_index: 10
+  dependency_index: 11
+  dependency_index: 12
+}

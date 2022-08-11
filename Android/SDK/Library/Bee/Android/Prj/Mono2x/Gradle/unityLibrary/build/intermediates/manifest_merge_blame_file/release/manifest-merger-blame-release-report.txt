@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="preferExternal"
+6    android:versionCode="1"
+7    android:versionName="0.1" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="25"
+10-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+12
+13    <supports-screens
+13-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-163
+14        android:anyDensity="true"
+14-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:135-160
+15        android:largeScreens="true"
+15-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:78-105
+16        android:normalScreens="true"
+16-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:49-77
+17        android:smallScreens="true"
+17-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:21-48
+18        android:xlargeScreens="true" />
+18-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:106-134
+19
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-66
+20-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:20-63
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+21-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-72
+21-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:20-69
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-79
+22-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:20-76
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-77
+23-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:20-74
+24
+25    <uses-feature
+25-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-88
+26        android:name="android.hardware.bluetooth_le"
+26-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:17-61
+27        android:required="true" />
+27-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:62-85
+28    <uses-feature android:glEsVersion="0x00030000" />
+28-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-52
+28-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-49
+29    <uses-feature
+29-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-83
+30        android:name="android.hardware.vulkan"
+30-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:17-55
+31        android:required="false" />
+31-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:56-80
+32    <uses-feature
+32-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-88
+33        android:name="android.hardware.touchscreen"
+33-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:17-60
+34        android:required="false" />
+34-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:61-85
+35    <uses-feature
+35-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-99
+36        android:name="android.hardware.touchscreen.multitouch"
+36-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:17-71
+37        android:required="false" />
+37-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:72-96
+38    <uses-feature
+38-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-108
+39        android:name="android.hardware.touchscreen.multitouch.distinct"
+39-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-80
+40        android:required="false" />
+40-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:81-105
+41    <uses-feature
+41-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:3-91
+42        android:name="android.hardware.vulkan.version"
+42-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:17-63
+43        android:required="false" />
+43-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:64-88
+44
+45    <uses-permission android:name="android.permission.INTERNET" />
+45-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:3-65
+45-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:20-62
+46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+46-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:3-77
+46-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:20-74
+47
+48    <application
+48-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-25:17
+49        android:extractNativeLibs="true"
+49-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:123-155
+50        android:icon="@mipmap/app_icon"
+50-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:58-89
+51        android:label="@string/app_name"
+51-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:90-122
+52        android:theme="@style/UnityThemeSelector" >
+52-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:16-57
+53        <activity
+53-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:5-18:16
+54            android:name="com.unity3d.player.UnityPlayerActivity"
+54-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:15-68
+55            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+55-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:171-352
+56            android:hardwareAccelerated="false"
+56-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:388-423
+57            android:label="@string/app_name"
+57-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:69-101
+58            android:launchMode="singleTask"
+58-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:139-170
+59            android:resizeableActivity="false"
+59-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:353-387
+60            android:screenOrientation="fullUser" >
+60-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:102-138
+61            <intent-filter>
+61-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:7-14:23
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:9-61
+62-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:17-58
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:9-69
+64-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:19-66
+65            </intent-filter>
+66
+67            <meta-data
+67-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:7-82
+68                android:name="unityplayer.UnityActivity"
+68-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:18-58
+69                android:value="true" />
+69-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:59-79
+70            <meta-data
+70-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:7-78
+71                android:name="android.notch_support"
+71-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:18-54
+72                android:value="true" />
+72-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+73            <meta-data
+73-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:7-78
+74                android:name="android.notch_support"
+74-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:18-54
+75                android:value="true" />
+75-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+76        </activity>
+77
+78        <meta-data
+78-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-101
+79            android:name="unity.build-id"
+79-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-45
+80            android:value="acd37b63-1484-47ae-9104-9178ca845ebf" />
+80-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:46-98
+81        <meta-data
+81-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-69
+82            android:name="unity.splash-mode"
+82-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-48
+83            android:value="0" />
+83-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:49-66
+84        <meta-data
+84-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-74
+85            android:name="unity.splash-enable"
+85-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-50
+86            android:value="True" />
+86-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:51-71
+87        <meta-data
+87-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-81
+88            android:name="notch.config"
+88-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-43
+89            android:value="portrait|landscape" />
+89-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:44-78
+90        <meta-data
+90-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-78
+91            android:name="unity.launch-fullscreen"
+91-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-54
+92            android:value="True" />
+92-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:55-75
+93        <meta-data
+93-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:5-84
+94            android:name="unity.allow-resizable-window"
+94-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:16-59
+95            android:value="False" />
+95-->/Users/szymongesicki/aidlab-sdk/Unity/SDK/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:60-81
+96    </application>
+97
+98</manifest>
