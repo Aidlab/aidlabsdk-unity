@@ -47,15 +47,26 @@ namespace Aidlab
         public string hardwareRevisionStr = "";
         private float lastDataReceivedTime = -1.0f;
         private bool receivedData = false;
+        static AidlabSDK instance;
 
         #endregion Variables
         #region UnityMethods
         private void Awake()
         {
-            aidlabDevice = null;
-            lastDataReceivedTime = -1.0f;
-            receivedData = false;
-            bleConnector = new BLEConnector(this, deviceNameToConnect);
+            if(instance != null)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                instance = this;
+                DontDestroyOnLoad(gameObject);
+                aidlabDevice = null;
+                lastDataReceivedTime = -1.0f;
+                receivedData = false;
+                bleConnector = new BLEConnector(this, deviceNameToConnect);
+                GetComponent<MeshRenderer>().enabled = false;
+            }
         }
 
         private void Update()
