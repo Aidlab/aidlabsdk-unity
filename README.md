@@ -9,6 +9,7 @@ You can check our [website](http://www.aidlab.com/developer) to get the answers 
 1. Import unitypackage
 2. Create your example and call the static init method from the AidlabSDK class. When it is called, it will start scanning and trying to connect the nearest device.
 3. Integrate signals from the device using methods from AidlabDelegate. Example can be found in the file `Example.cs` in the example folder.
+4. To specify which signals to collect from the Aidlab device check GetCollectMethod in AidlabSDK.cs.
 
 **Directory structure**
 
@@ -17,7 +18,6 @@ You can check our [website](http://www.aidlab.com/developer) to get the answers 
 `unity_plugin` - Utilities for Bluetooth connectivity for AidlabSDK. The whole project was exported to `unitypackage` for easy import.
 
 `example` - Project example.
-
 
 # Android
 
