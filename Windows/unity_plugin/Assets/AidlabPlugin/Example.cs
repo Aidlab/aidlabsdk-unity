@@ -9,8 +9,9 @@ namespace Test.Example
         private void Start()
         {
             Aidlab.AidlabSDK.init();
-            Aidlab.AidlabSDK.aidlabDelegate.temperature.Subscribe(ReceiveTemperature);
-            Aidlab.AidlabSDK.aidlabDelegate.wearState.Subscribe(ReceiveWearState);
+            // Aidlab.AidlabSDK.aidlabDelegate.temperature.Subscribe(ReceiveTemperature);
+            // Aidlab.AidlabSDK.aidlabDelegate.wearState.Subscribe(ReceiveWearState);
+            Aidlab.AidlabSDK.aidlabDelegate.respiration.Subscribe(() => { Debug.Log(Aidlab.AidlabSDK.aidlabDelegate.respiration.value); });
         }
 
         private void ReceiveTemperature()
