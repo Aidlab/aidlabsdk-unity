@@ -98,7 +98,7 @@ namespace Aidlab
             // data so we have to constantly check if there is any data and download and parse it
             bleConnector.ConnectionProcess();
             // mainThreadWorker handles events from the device
-            mainThreadWorker.Update();
+            //mainThreadWorker.Update();
         }
 
         /// <summary>
