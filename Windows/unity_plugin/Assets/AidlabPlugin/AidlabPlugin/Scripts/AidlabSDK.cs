@@ -97,8 +97,6 @@ namespace Aidlab
             // dll from bluetooth doesn't have an event about new 
             // data so we have to constantly check if there is any data and download and parse it
             bleConnector.ConnectionProcess();
-            // mainThreadWorker handles events from the device
-            //mainThreadWorker.Update();
         }
 
         /// <summary>
@@ -160,7 +158,7 @@ namespace Aidlab
         /// </remarks>
         public byte[] GetCollectCommand(IntPtr aidlabAddress)
         {
-            byte[] signals = { (byte)Signal.Respiration };
+            byte[] signals = { (byte)Signal.Respiration, (byte)Signal.Ecg, (byte)Signal.HeartRate, (byte)Signal.Temperature };
 
             IntPtr ptr = AidlabAPI.GetCollectCommand(signals, signals.Length, signals, signals.Length, aidlabAddress);
 
